@@ -2,7 +2,7 @@
     "family": "flask-signup",
     "containerDefinitions": [
         {
-            "image": "jkh4/tuto:v_%BUILD_NUMBER%",
+            "image": "jkh4/tuto:lastest",
             "name": "flask-signup",
             "cpu": 10,
             "memory": 256,
