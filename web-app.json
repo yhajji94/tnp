@@ -1,0 +1,18 @@
+{
+    "family": "web-app",
+    "containerDefinitions": [
+        {
+            "image": "jkh4/eu-west-1:latest",
+            "name": "web-app",
+            "cpu": 10,
+            "memory": 256,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 5000,
+                    "hostPort": 80
+                }
+            ]
+        }
+    ]
+}
