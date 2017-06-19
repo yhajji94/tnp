@@ -2,7 +2,7 @@
     "family": "web-app",
     "containerDefinitions": [
         {
-            "image": "jkh4/eu-west-1:latest",
+            "image": "yhajji/tnp-cd/web-app:latest",
             "name": "web-app",
             "cpu": 10,
             "memory": 256,
